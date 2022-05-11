@@ -1,0 +1,17 @@
+import React from "react";
+import BotaoVoltar from "../BotaoVoltar";
+
+const PaginaFrontEnd = () => (
+  <div>
+    <h1>
+      React.js
+    </h1>
+    <p>
+      React é um biblioteca Javascript para a criação de interfaces de usuário e, messe contexto, uma das tecnologias mais utilizadas pelo mercado. No guia abaixo você aprenderá quais são os pré-requisitos para iniciar no React do jeito certo e como criar as suas primeiras SPAs com ela.
+    </p>
+    <a href="https://www.devmedia.com.br/react">Guia de React</a>
+    <BotaoVoltar />
+  </div>
+);
+
+export default PaginaFrontEnd;
